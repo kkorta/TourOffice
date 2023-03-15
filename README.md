@@ -3,4 +3,4 @@
 # Twórcy
 Paweł Konop, Kacper Korta
 # Temat
-Projekt polega na prowadzeniu biura wycieczek 
+Tematem projektu jest Biuro wycieczek gdzie przechowujemy różne informacje na temat tych wycieczek
