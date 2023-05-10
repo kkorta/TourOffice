@@ -43,4 +43,12 @@ schema Users
 - "/set/client", methods used: **put**
 - "/users", methods used: **get**
 
+# Funkcjonalności
+- rejestracja (dodanie użytkownika do bazy)
+- możliwość pobrania danych o wycieczkach
+- możliwość składania zamówień
+- możliwość dodania opini
+- możliwość przyanania roli admina/menadżera/klienta
+- możliwość pobrania informacji o użytkownikach
+
 
