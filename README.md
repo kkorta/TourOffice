@@ -10,7 +10,7 @@ Tematem projektu jest Biuro wycieczek gdzie przechowujemy różne informacje na 
 Angular, MongoDB
 
 
-# Database Structure (schemas)
+# Struktura (schemas)
 
 schema Oders
 
