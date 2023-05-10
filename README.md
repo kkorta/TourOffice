@@ -29,18 +29,18 @@ schema Users
 
 
 # Endpoints
-- "/tours"
-- "/register"
-- "/login"
-- "/orders"
-- "/reviews"
-- "/token/refresh/"
-- "/orders/:userId"
-- "/ban"
-- "/unban"
-- "/set/admin"
-- "/set/manager"
-- "/set/client"
-- "/users"
+- "/tours", methods used: **get**, **post**
+- "/register", methods used: **post**
+- "/login", methods used: **post**
+- "/orders", methods used: **post**
+- "/reviews", methods used: **post**
+- "/token/refresh/", methods used: **post**
+- "/orders/:userId", methods used: **get**
+- "/ban", methods used: **put**
+- "/unban", methods used: **put**
+- "/set/admin", methods used: **put**
+- "/set/manager", methods used: **put**
+- "/set/client", methods used: **put**
+- "/users", methods used: **get**
 
 
