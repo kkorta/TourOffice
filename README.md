@@ -25,7 +25,7 @@ schema Tours
 ![image](https://github.com/kkorta/TourOffice/assets/101141624/3bf19dcc-41d2-4655-a5ad-c32c8d702857)
 
 schema Users
+![image](https://github.com/kkorta/TourOffice/assets/101141624/a470f5d8-2535-48e8-8459-49af2c54152c)
 
-![image](https://github.com/kkorta/TourOffice/assets/101141624/cfc6d41e-0ba5-418b-8bd4-f313bb0b57d1)
 
 
