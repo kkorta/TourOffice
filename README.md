@@ -28,4 +28,19 @@ schema Users
 ![image](https://github.com/kkorta/TourOffice/assets/101141624/a470f5d8-2535-48e8-8459-49af2c54152c)
 
 
+# Endpoints
+- "/tours"
+- "/register"
+- "/login"
+- "/orders"
+- "/reviews"
+- "/token/refresh/"
+- "/orders/:userId"
+- "/ban"
+- "/unban"
+- "/set/admin"
+- "/set/manager"
+- "/set/client"
+- "/users"
+
 
