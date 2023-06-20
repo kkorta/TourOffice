@@ -5,7 +5,7 @@
 # Twórcy
 Paweł Konop, Kacper Korta
 
-# Techonologie użyte
+# Techonologie użyte w projekcie
 MongoDB, Angular
 
 # Temat
