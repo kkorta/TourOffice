@@ -1,5 +1,8 @@
 # ToursApplication
 
+[BD-Korta-Konop.pdf](https://github.com/kkorta/TourOffice/files/11804581/BD-Korta-Konop.pdf)
+
+
 ### To run server:
 
 1. Open terminal in "server" folder.
