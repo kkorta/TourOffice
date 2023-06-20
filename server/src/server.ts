@@ -207,17 +207,36 @@ app.get("/reviews/:tourId", async  ( req, res ) => {
 // get tours
 
 app.get("/tours", async (req, res) => {
-
-    const currentDate = moment().toDate();
-
-    try {
-        const tours = await ToursModel.find();
-
-        res.send(tours);
-    } catch (err) {
-        res.status(500).send({ message: "Internal server error" });
+    try{
+        const tours = await ToursModel.aggregate([
+            {
+                $addFields: {
+                    parsedStartDate: {
+                        $dateFromString: {
+                            dateString: {
+                                $concat: [
+                                    { $substrCP: ["$startDate", 0, { $indexOfCP: ["$startDate", " "] }] },
+                                    { $substr: ["$startDate", { $add: [{ $indexOfCP: ["$startDate", " "] }, 1] }, 2] },
+                                    { $substr: ["$startDate", { $add: [{ $indexOfCP: ["$startDate", " "] }, 4] }, 5] }
+                                ]
+                            },
+                        }
+                    }
+                }
+            },
+            {
+                $match: {
+                    parsedStartDate: { $gt: new Date() }
+                }
+            }
+        ]);
+        res.send(tours)
+    }catch (err){
+        res.status(500).send({message: "Internal server error"})
     }
-});
+
+})
+
 
 
 
