@@ -6,7 +6,7 @@
 Paweł Konop, Kacper Korta
 
 # Techonologie użyte w projekcie
-MongoDB, Angular
+MongoDB, Angular, ExpressJS
 
 # Temat
 Tematem naszej aplikacji jest biuro wycieczek,
