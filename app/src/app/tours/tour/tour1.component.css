@@ -233,6 +233,11 @@
   padding: 0.5rem;
 }
 
+.form-label, .input-field {
+  color: black;
+}
+
+
 
 /*.pudlo{*/
 /*  background-color: red;*/
